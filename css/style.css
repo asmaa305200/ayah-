@@ -1,0 +1,50 @@
+.wohle{
+    height: 100vh;
+    font-size: 30px;
+    color: #fff;
+    font-family: Amiri, serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, .8);
+
+}
+.photo{
+    /* z-index: -5; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+.layer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 50%;
+    left:50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+}
+    button{
+        padding: 10px 20px;
+        background-color: antiquewhite;
+        border-radius: 5px;
+        border: none;
+        font-size: 20px;
+        color: rgb(94, 31, 31);
+    }
+    button:hover{
+        background-color: rgb(94, 31, 31);;
+        color: antiquewhite;
+    }
